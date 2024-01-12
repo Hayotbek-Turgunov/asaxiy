@@ -1,0 +1,68 @@
+.product-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.product-card {
+  width: 250px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card-comment-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-card-comment-message {
+  display: flex;
+  margin-right: 5px;
+  color: black;
+}
+
+.product-card-comment {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.425);
+}
+
+.product-card-price {
+  color: dodgerblue;
+}
+
+.product-card-btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-card-btn-buy {
+  padding: 10px 25px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.product-card-btn-basket {
+  padding: 8px 16px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  background-color: #00BFAF;
+}
+
+.product-card-icon-start-item {
+  color: #FE7300;
+}

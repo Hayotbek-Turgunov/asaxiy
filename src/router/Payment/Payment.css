@@ -1,0 +1,39 @@
+.payment-card {
+  width: 420px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: auto;
+  background-color: white;
+}
+
+.payment-card h2 {
+  font-size: 40px;
+  margin-top: 0;
+  color: #13306A;
+}
+
+.payment-card p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.558);
+}
+
+.payment-card-input {
+  display: inline-block;
+  height: 38px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.486);
+  font-size: 16px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.payment-card-btn {
+  padding: 15px 20px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}

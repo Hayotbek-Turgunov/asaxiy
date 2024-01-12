@@ -1,0 +1,59 @@
+.trak-container {
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.trak-form-info {
+  width: 30%;
+}
+
+
+.trak-form-info-heading {
+  font-size: 40px;
+  margin-top: 0;
+  color: rgba(7, 26, 46, 0.638);
+}
+
+.trak-form-info-text {
+  font-size: 18px;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.536);
+}
+
+.trak-form span {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.463);
+  margin-bottom: 10px;
+}
+
+.trak-form-input {
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  border: 2px solid rgba(0, 0, 0, 0.525);
+}
+
+.track-img {
+  width: 60%;
+}
+
+.trak-img {
+  text-align: center;
+  padding-left: 90px;
+}
+
+.trak-form-btn {
+  padding: 12px 25px;
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}

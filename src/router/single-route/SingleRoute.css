@@ -1,0 +1,55 @@
+.single-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.single-img-card {
+  background-color: white;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.single-img {
+  width: 300px;
+}
+
+.single-product-info {
+  width: 40%;
+}
+
+.single-product-info-comment-icon-wrapper {
+  display: flex;
+  justify-content: stretch;
+  gap: 30px;
+}
+
+.single-product-info-card-heading {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.single-product-info p {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.product-btn-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.product-card-btn {
+  padding: 16px 20px;
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
